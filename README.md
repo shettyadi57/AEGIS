@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ⚡ AEGIS — Advanced Exam Guardrail Integrity System
 
 > A production-ready exam integrity platform with browser-based proctoring, real-time violation detection, and an enterprise-grade auditor dashboard.
@@ -456,3 +457,6 @@ AEGIS is intended for educational and institutional exam integrity purposes.
 ---
 
 *Built with ⚡ by the AEGIS Team*
+=======
+# AEGIS
+>>>>>>> a026835547bb3c031e08e98531c2f49ce865f7bb
