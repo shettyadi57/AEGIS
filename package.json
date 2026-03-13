@@ -1,0 +1,17 @@
+{
+  "name": "aegis-system",
+  "version": "1.0.0",
+  "description": "AEGIS — Advanced Exam Guardrail Integrity System",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../auditor-dashboard && npm install",
+    "seed": "cd backend && npm run seed",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:dashboard": "cd auditor-dashboard && npm run dev",
+    "dev": "npm run install:all && concurrently \"npm run dev:backend\" \"npm run dev:dashboard\"",
+    "setup": "npm run install:all && npm run seed"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
